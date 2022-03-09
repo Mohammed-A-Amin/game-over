@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Fruktur&family=Press+Start+2P&display=swap');
+
+body{
+    background-color: rgb(19, 14, 14);
+    font-family: 'Press Start 2P', 'sans-serif';
+}
+
+.proud{
+  font-family: 'Exo';
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.bigblue{
+  color: #6ab8f8;
+  padding: 40px;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+}
+
+.roadmap{
+  border-radius: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding: 50px;
+}

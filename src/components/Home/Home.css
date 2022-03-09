@@ -1,28 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Fruktur&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Fruktur&family=Press+Start+2P&display=swap');
 body{
     background-color: rgb(19, 14, 14);
+    font-family: 'Press Start 2P', 'sans-serif';
 }
 
-.imgchat{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+.Maintitle {
+  color: rgb(255, 255, 255);
+  font-family: 'Press Start 2P', cursive;
+
 }
 .gamePara{
     width: 100%;
-    padding: 40px;
+    padding: 10px;
+}
+.crown{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 30px;
+}
+.gem{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-bottom: 30px;
 }
 
 hr{
-    color: blac;
+    color: white;
     text-align: center;
 }
 /*HEADER*/
 header::before {
     height: 100vh;
-    background-color: #0a0a09;
+    background-color: #000000;
     content: "";
     position: absolute;
     top: 0px;
@@ -34,7 +48,7 @@ header::before {
 header {
   height: 100vh;
   width: 100%;
-  color: #FEE31C;
+  color: #ffffff;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -42,10 +56,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-   background-image: url("https://cdn.discordapp.com/attachments/831379209331015691/947039802891599872/5fdacd37-fd43-4e49-94f3-7625be9967d5.png");
+   background-image: url("../../../src/assets/castles.png");
   
   text-align: center;
-  font-family: 'Press Start 2P', 'cursive';
+  font-family: 'Press Start 2P', 'sans-serif';
 }
 header div{
   position: relative;
@@ -53,7 +67,7 @@ header div{
 }
 header h1{
   font-size:  100px;
-  font-family: 'Press Start 2P', 'cursive';
+  font-family: 'Press Start 2P', 'sans-serif';
 }
 
 
@@ -61,7 +75,7 @@ header h1{
 
 
 .bigblue {
-  color: #FEE31C;
+  color: #6ab8f8;
   padding: 40px;
   font-family: 'Exo', sans-serif;
   text-align: left;
@@ -77,30 +91,13 @@ header h1{
 p{
     font-family: 'Exo', sans-serif;
     color: white;
-    font-size: 20px;
 }
-
-
-
-h2{
-    color: #FEE31C;
-    font-family: 'Exo', sans-serif;
+.title .btn{
+  margin-top: 10vh;
+  color: #6ab8f8;
+  background-color:#000000;
 }
-
-  
-.success{
-    padding:20px;
-
-  }
-
-.balls{
-    color: #FEE31C;
-    font-size: 25px;
-
-}
-
-.paragraphs{
-    font-size: 18px;
-    align: left;
-    padding-right: 20px;
+.title .btn:hover {
+  color: black;
+  background-color: #6ab8f8;
 }

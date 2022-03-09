@@ -5,11 +5,11 @@ import './index.css';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 //Compnents
 import App from './App';
-import About from './components/About.js';
-import Contact from './components/Contact.js';
-import Home from './components/Home.js';
-import Navigation from './components/Navigation.js';
-import Launch from './components/launch';
+import About from './components/About/About';
+import Home from './components/Home/Home';
+
+import Navigation from './components/Navigation/Navigation';
+import Roadmap from './components/Roadmap/Roadmap';
 
 // Web vitals
 import reportWebVitals from './reportWebVitals';
@@ -22,8 +22,7 @@ ReactDOM.render(
     <Routes>
       <Route path = "/" element={<Home />} />
       <Route path = "/About" element={<About />} />
-      <Route path = "/Contact" element={<Contact />} />
-      <Route path = "/Launch" element={<Launch />} />
+      <Route path = "/Roadmap" element={<Roadmap />} />
     </Routes>
     </Router>
   </React.StrictMode>,
