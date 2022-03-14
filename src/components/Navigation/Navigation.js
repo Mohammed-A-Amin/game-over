@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1>logo</h1>
+        <img className="logo"src = "https://i.ibb.co/vVHSSc5/pixil-frame-0-12.png"></img>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>

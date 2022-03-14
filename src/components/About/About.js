@@ -34,7 +34,7 @@ function About() {
             <div class="col">
               <img
                 className="crown"
-                src="https://cdn.discordapp.com/attachments/831379209331015691/947053292599513138/20210830_000442.jpg"
+                src="https://i.ibb.co/YR3rCD1/angel.png"
               ></img>
               <h3 className="names">Angel Flores</h3>
             </div>
