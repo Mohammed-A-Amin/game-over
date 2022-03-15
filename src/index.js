@@ -10,6 +10,7 @@ import Home from './components/Home/Home';
 
 import Navigation from './components/Navigation/Navigation';
 import Roadmap from './components/Roadmap/Roadmap';
+import Footer from './components/Footer/Footer';
 
 // Web vitals
 import reportWebVitals from './reportWebVitals';
@@ -24,6 +25,8 @@ ReactDOM.render(
       <Route path = "/About" element={<About />} />
       <Route path = "/Roadmap" element={<Roadmap />} />
     </Routes>
+
+    <Footer />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

@@ -19,7 +19,17 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  max-height: 365px;
   padding-bottom: 30px;
+  border-radius: 5% ;
+}
+.crownM{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 30px;
+  border-radius: 5% ;
 }
 .gem{
   display: block;

@@ -1,6 +1,8 @@
 import React from "react";
 import "./About.css";
 import ReactDOM from "react-dom";
+import Mohammed from "../../assets/mohammed.png";
+import angel from "../../assets/angel.jpg";
 
 function About() {
   return (
@@ -25,23 +27,21 @@ function About() {
               fall behind, so we are introducing our own cryptocurrency as well
               as a custom NFT designed by our lead developer, Mohammed Amin, and
               UX/UI designer, Angel Flores. We are the creators of Game Over and
-              hope to expand our world to our user's liking. We would use React
-              and Solidity to expand and advertise our game into the blockchain
-              network.
+              hope to expand our world to our user's liking. 
             </p>
           </div>
           <div class = "row">
             <div class="col">
               <img
                 className="crown"
-                src="https://i.ibb.co/YR3rCD1/angel.png"
+                src={angel}
               ></img>
               <h3 className="names">Angel Flores</h3>
             </div>
             <div class="col">
               <img
-                className="crown"
-                src="https://cdn.discordapp.com/attachments/831379209331015691/947053292599513138/20210830_000442.jpg"
+                className="crownM"
+                src={Mohammed}
               ></img>
               <h3 className="names">Mohammed Amin</h3>
             </div>
