@@ -17,15 +17,13 @@ function Home() {
 
       <div class="container">
         <br></br>``
-        <h1 className="bigblue"> What is Game Over?</h1>
+        <h1 className="bigblue"> EMBARK ON A NEW JOURNEY</h1>
         <div class="row">
           <div class="col">
             <div className="gamePara">
               <p>
-                GAME OVER is based on a play-to-earn gaming style, where our
-                users can put their skills to the test by winning coins,
-                reaching higher levels, and winning Unique NFTs that are only
-                available to those who are willing to risk it all.
+              The King of Cryptonia has been captured by an enemy king! Will you, as a Knight of Cryptonia, take on the challenge of risking it all and going to go save the king? On your journey, you will collect our cryptocurrency, GG Token on your quest to obtain gems to increase your ranking in Cryptonia as you progress 
+              through each world and fight to bring an end to the reign of terror. START YOUR QUEST TODAY!
               </p>
             </div>
           </div>
@@ -33,7 +31,7 @@ function Home() {
           <div class="col">
             <img
               className="crown"
-              src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/d23bf5c31d12b8a.png"
+              src="https://i.gifer.com/origin/dc/dcd102532110a6fea1e33bcdb5d31f9a_w200.gif"
             ></img>
           </div>
         </div>

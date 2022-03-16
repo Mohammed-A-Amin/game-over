@@ -68,7 +68,7 @@ function Roadmap() {
                                 <h5 className="title">Profitability</h5>
                                 <p className="description">
                                   Develop in-game benefits through the implementation of the Risk-Or-Reward system and alter the coins you earn inside
-                                  the game into our ERC20 Token called OverCoin (OVER).
+                                  the game into our ERC20 Token called GGCoin (GGC).
                                 </p>
                             </div>
                         </div>
