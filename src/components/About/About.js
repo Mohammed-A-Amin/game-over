@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import ReactDOM from "react-dom";
 import Mohammed from "../../assets/mohammed.png";
-import angel from "../../assets/angel.jpg";
+import angel from "../../assets/angel.png";
 
 function About() {
   return (
