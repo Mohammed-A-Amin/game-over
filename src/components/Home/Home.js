@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./Home.css";
 import { Link } from "react-router-dom";
+import discord from "../../assets/discord.png"
 
 function Home() {
   return (
@@ -40,7 +41,7 @@ function Home() {
         </div>
         <div class="container">
           <br></br>``
-          <h1 className="bigblue">Test Your Skills</h1>
+          <h1 className="bigblue">TEST YOUR SKILLS</h1>
           <div class="row">
             <div class="col">
               <div className="gamePara">
@@ -63,7 +64,26 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+        <div class="align-items-center">
+          <hr></hr>
+        </div>
+
+        <div class="container">
+          <br></br>``
+          <h1 className="bigblue">GET INVOLVED WITH OUR COMMUNITY!</h1>
+            <br></br><br></br>
+              <div >
+                <p>
+              JOIN HUNDREDS OF KNIGHTS ON YOUR JOURNEY TO BECOME THE BEST KNIGHT OF THEM ALL!
+                </p>
+              </div>
+              <a target = "_blank" href = "https://discord.gg/R7gXxTvhSp"> <img
+                className="gem"
+                src="https://i.ibb.co/DkYsjtD/discord.png"
+              ></img></a>
+            
+          </div>
+        </div>
     </div>
   );
 }

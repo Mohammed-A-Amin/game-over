@@ -7,19 +7,19 @@ body{
 }
 
 h5{
-  color: #6ab8f8;
+  color: #bc90fa;
 }
 .proud{
-  font-family: 'Exo';
+  font-family: 'Press Start 2P', 'sans-serif';
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
 }
 
 .bigblue{
-  color: #6ab8f8;
-  padding: 40px;
-  font-family: 'Exo', sans-serif;
+  color: #bc90fa;
+  padding: 30px;
+  font-family: 'Press Start 2P', 'sans-serif';
   text-align: center;
 }
 
@@ -200,6 +200,7 @@ h5{
 
 .main-timeline .description {
   margin-bottom: 0
+
 }
 
 .main-timeline .timeline:nth-child(2n) .date-content {
@@ -279,4 +280,8 @@ h5{
   .main-timeline .title {
       margin-bottom: 10px
   }
+}
+
+.description{
+  font-size: 15px;
 }

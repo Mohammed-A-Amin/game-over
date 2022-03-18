@@ -3,7 +3,7 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: #0d0612;
   position: relative;
   margin-top: 300px;
 }
@@ -81,7 +81,7 @@ ul {
   background: #55ACEE;
 }
 .google-bg{
-  background: #9AD9FC;
+  background: #bc90fa;
 }
 .footer-widget-heading h3 {
   color: #fff;
@@ -97,7 +97,7 @@ ul {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #9AD9FC;
+  background: #bc90fa;
 }
 .footer-widget ul li {
   display: inline-block;
@@ -106,10 +106,10 @@ ul {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-  color: #9AD9FC;
+  color: #bc90fa;
 }
 .footer-widget ul li a {
-  color: #9AD9FC;
+  color: #bc90fa;
   text-transform: capitalize;
 }
 .subscribe-form {
@@ -126,9 +126,9 @@ ul {
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #9AD9FC;
+    background: #bc90fa;
     padding: 13px 20px;
-    border: 1px solid #9AD9FC;
+    border: 1px solid #bc90fa;
     top: 0;
 }
 .subscribe-form button i {
@@ -137,7 +137,7 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #202020;
+  background: #0d0612;
   padding: 25px 0;
 }
 .copyright-text p {
@@ -146,14 +146,14 @@ ul {
   color: #878787;
 }
 .copyright-text p a{
-  color: #9AD9FC;
+  color: #bc90fa;
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: #9AD9FC;
+  color: #bc90fa;
 }
 .footer-menu li a {
   font-size: 14px;

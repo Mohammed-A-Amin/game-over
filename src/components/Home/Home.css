@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Fruktur&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Fruktur&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Fruktur&family=Press+Start+2P&display=swap');
 body{
-    background-color: rgb(19, 14, 14);
+  background: rgb(12,6,17);
+  background: linear-gradient(0deg, rgba(12,6,17,1) 23%, rgba(89,41,154,1) 100%, rgba(123,56,216,1) 100%, rgba(0,212,255,1) 100%);
     font-family: 'Press Start 2P', 'sans-serif';
 }
 
@@ -10,6 +12,7 @@ body{
   font-family: 'Press Start 2P', cursive;
 
 }
+
 .gamePara{
     width: 100%;
     padding: 10px;
@@ -37,7 +40,7 @@ hr{
 /*HEADER*/
 header::before {
     height: 100vh;
-    background-color: #000000;
+    background-color: #7b38d8;
     content: "";
     position: absolute;
     top: 0px;
@@ -76,29 +79,30 @@ header h1{
 
 
 .bigblue {
-  color: #6ab8f8;
+  color: #bc90fa;
   padding: 40px;
-  font-family: 'Exo', sans-serif;
-  text-align: left;
+  text-align: center;
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 .smallblue {
     color: #FEE31C;
     padding: 40px;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
     text-align: left;
 }
 
 p{
-    font-family: 'Exo', sans-serif;
+  font-family: 'Press Start 2P', sans-serif;
     color: white;
+    font-size: 20px;
 }
 .title .btn{
   margin-top: 10vh;
-  color: #6ab8f8;
+  color: #bc90fa;
   background-color:#000000;
 }
 .title .btn:hover {
   color: black;
-  background-color: #6ab8f8;
+  background-color: #a127e7;
 }

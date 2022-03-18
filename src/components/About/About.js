@@ -14,7 +14,7 @@ function About() {
       </header>
 
       <div class="container">
-        <br></br>``
+        <br></br>
         <h1 className="bigblue"> Our Goal</h1>
         <div class="row">
           <div className="gamePara">
@@ -27,22 +27,19 @@ function About() {
               fall behind, so we are introducing our own cryptocurrency as well
               as a custom NFT designed by our lead developer, Mohammed Amin, and
               UX/UI designer, Angel Flores. We are the creators of Game Over and
-              hope to expand our world to our user's liking. 
+              hope to expand our world to our user's liking.
             </p>
           </div>
-          <div class = "row">
+          <br></br>
+            <br></br>
+          <div class="row">
+        
             <div class="col">
-              <img
-                className="crown"
-                src={angel}
-              ></img>
+              <img className="crownA" src={angel}></img> <br></br>
               <h3 className="names">Angel Flores</h3>
             </div>
             <div class="col">
-              <img
-                className="crownM"
-                src={Mohammed}
-              ></img>
+              <img className="crownM" src={Mohammed}></img> <br></br>
               <h3 className="names">Mohammed Amin</h3>
             </div>
           </div>
@@ -52,7 +49,6 @@ function About() {
         </div>
         <div class="container">
           <br></br>
-
         </div>
       </div>
     </div>
